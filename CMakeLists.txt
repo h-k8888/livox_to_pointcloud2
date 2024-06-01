@@ -41,6 +41,8 @@ elseif($ENV{ROS_VERSION} EQUAL 2)
   ## ament-related (ROS2) ##
   ##########################
   find_package(ament_cmake_auto REQUIRED)
+#  find_package(rosbag2_cpp REQUIRED)
+#  find_package(std_msgs REQUIRED)
   ament_auto_find_build_dependencies()
 
   # Component
